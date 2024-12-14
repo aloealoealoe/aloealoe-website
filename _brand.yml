@@ -1,0 +1,28 @@
+color:
+  palette:
+    green: "#4da768"
+    dark-green: "#006633"
+    light-green: "#99e89d"
+    green1: "#99e89d"
+    green2: "#73c883"
+    green3: "#4da768"
+    green4: "#26874e"
+    green5: "#006633"
+  foreground: dark-green
+  background: white
+  primary: green
+    
+logo:
+  small: icon.png
+  medium: logo.png
+  large: logo.png
+
+typography:
+  fonts:
+    - family: YesEva One
+      source: google
+  base: YesEva One
+  headings: YesEva One
+  
+meta:
+  name: AloeAloe Medical and Scientific Writing

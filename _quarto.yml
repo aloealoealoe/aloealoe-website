@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "AloeAloe"
+  description: "AloeAloe Medical and Scientific Writing"
+  navbar:
+    right:
+      - href: index.qmd
+        text: "Home"
+      - href: contact.qmd
+        text: "Contact"
+    search: false
+  page-footer: "Copyright 2024, Claire Pike"
+  favicon: icon.png
+  twitter-card: true
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
