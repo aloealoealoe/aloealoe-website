@@ -1,1 +1,78 @@
-![](logo.png)
+---
+about:
+  id: about-me
+  template: jolla
+  image: assets/profile.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: "###email###"
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/claire-pike
+format:
+  html:
+    page-layout: full
+    include-after-body:
+      text: |
+        <script>
+          function decryptEmail(encoded) {
+            var address = atob(encoded);
+            document.querySelector(".about-link[href*='###email###']").href = "mailto:" + address;
+          }
+          decryptEmail('dGVzdEB0ZXN0LmNvbQ==');
+        </script>
+---
+
+![](assets/banner.png)
+
+::: {.grid}
+
+:::::: {.p-3 .g-col-12 .g-col-lg-4}
+
+::::::::: {#about-me}
+
+### Overview {.panel}
+
+Hi, I'm Claire!
+
+I'm a Freelance Medical and Scientific Writer with over 3 years experience in Medical Communications and a passion for learning.
+
+Contact me for support with your medical, commercial and medical education deliverables.
+
+:::::::::
+
+::::::
+
+
+:::::: {.p-3 .g-col-12 .g-col-lg-8}
+
+
+### I can support you to...
+
+* Create marked-up reference packs
+* Data-check content
+* Develop scientific materials, including <span id="task"></span>
+* Interpret meaning from data
+* Link content in VeevaVault
+* Re-template materials
+* Review word copy
+
+
+### Tools I am familiar with...
+  
+* Microsoft Office
+* PubMed
+* VeevaVault
+
+
+### Therapy areas of expertise...
+
+* Dermatology (psoriasis)
+* Hepatology (hepatitis B, PFIC)
+* Rare disease (pulmonary hypertension, PFIC)
+* Rheumatology (psoriatic arthritis)
+
+::::::
+
+:::

@@ -1,0 +1,49 @@
+/*-- scss:rules --*/
+
+.panel {
+  background-color: $brand-green0;
+  padding: 1em;
+  border-radius: 5%;
+}
+
+
+#overview h3 {
+  display: none;
+}
+
+
+
+section, .about-image {
+  opacity: 0.5; 
+  transition: opacity 0.2s linear;
+  
+  &:hover, &:active {
+    opacity: 1;
+    transition: opacity 0.2s linear;
+  }
+  
+  p, li {
+    &:hover, &:active {
+      font-weight: bold;
+    }
+  }
+}
+
+
+@import 'typed.css/typed.scss';
+
+#task {
+  color: $brand-green;
+  @include typed(
+    "advisory board reports and executive summaries",
+    "congress materials (abstracts, booth content, intelligence reports, posters, presentations...)",
+    "internal training materials",
+    "meeting-in-a-box deliverables",
+    "newsletters",
+    "slide decks for in-field and internal use",
+    "symposium and stand-alone meeting materials (presentations, agendas, invitations, briefing documents, e-blasts...)",
+    "... something else?",
+    [0.05, 3, 0.05, 1],
+    (caret-width: 2px)
+  )
+}

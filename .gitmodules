@@ -1,0 +1,3 @@
+[submodule "styles/typed.css"]
+	path = styles/typed.css
+	url = https://github.com/brandonmcconnell/typed.css.git

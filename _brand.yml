@@ -3,6 +3,7 @@ color:
     green: "#4da768"
     dark-green: "#006633"
     light-green: "#99e89d"
+    green0: "#ecf6ef"
     green1: "#99e89d"
     green2: "#73c883"
     green3: "#4da768"
@@ -13,16 +14,22 @@ color:
   primary: green
     
 logo:
-  small: icon.png
-  medium: logo.png
-  large: logo.png
+  small: assets/icon.png
+  medium: assets/logo.png
+  large: assets/logo.png
 
 typography:
   fonts:
     - family: YesEva One
       source: google
-  base: YesEva One
-  headings: YesEva One
+    - family: Lato
+      source: google
+  base:
+    family: Lato
+  headings:
+    family: YesEva One
+    style: italic
+    color: dark-green
   
 meta:
   name: AloeAloe Medical and Scientific Writing
