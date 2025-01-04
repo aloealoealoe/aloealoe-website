@@ -32,7 +32,7 @@ format:
 
 ::::::::: {#about-me}
 
-### Overview {.panel}
+### Overview
 
 Hi, I'm Claire!
 

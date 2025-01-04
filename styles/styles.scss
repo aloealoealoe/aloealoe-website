@@ -1,14 +1,14 @@
 /*-- scss:rules --*/
 
-.panel {
+// Special panel in "about-me" section
+#overview {
   background-color: $brand-green0;
-  padding: 1em;
-  border-radius: 5%;
-}
-
-
-#overview h3 {
-  display: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  
+  h3 {
+    display: none;
+  }
 }
 
 
@@ -19,14 +19,29 @@ section {
 
 
 section, .about-image {
+  
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+    
+  h3 {
+    margin-top: 0.5rem;
+  }
+  
+    
+  // Highlight visually when focused (hover on desktop, touch on mobile)
   opacity: 0.5; 
-  transition: opacity 0.2s linear;
+  background-color: none;
+  transition: opacity 0.2s linear, background-color 0.5s linear;
   
   &:hover, &:active {
     opacity: 1;
-    transition: opacity 0.2s linear;
+    background-color: $brand-green0;
+    transition: opacity 0.2s linear, background-color 0.5s linear;
   }
   
+  
+  // "Bold" text on hover
+  // ... but use text-stroke rather than font-weight, to avoid shift due to size
   p, li {
     &:hover, &:active {
       -webkit-text-stroke: 0.6px;
