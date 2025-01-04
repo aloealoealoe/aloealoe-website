@@ -17,3 +17,7 @@ format:
       - cosmo
       - styles/styles.scss
     toc: false
+    include-in-header:
+      text: |
+        <script data-goatcounter="https://aloealoe.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
