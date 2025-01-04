@@ -12,6 +12,11 @@
 }
 
 
+section {
+  text-wrap: balance;
+  text-wrap: pretty;
+}
+
 
 section, .about-image {
   opacity: 0.5; 
@@ -24,7 +29,7 @@ section, .about-image {
   
   p, li {
     &:hover, &:active {
-      font-weight: bold;
+      -webkit-text-stroke: 0.6px;
     }
   }
 }
@@ -43,7 +48,7 @@ section, .about-image {
     "slide decks for in-field and internal use",
     "symposium and stand-alone meeting materials (presentations, agendas, invitations, briefing documents, e-blasts...)",
     "... something else?",
-    [0.05, 3, 0.05, 1],
+    (type: 0.05, pause-typed: 4, delete: 0.01, pause-deleted: 1),
     (caret-width: 2px)
   )
 }
