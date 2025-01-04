@@ -20,14 +20,14 @@ logo:
 
 typography:
   fonts:
-    - family: YesEva One
+    - family: Yeseva One
       source: google
     - family: Lato
       source: google
   base:
     family: Lato
   headings:
-    family: YesEva One
+    family: Yeseva One
     style: italic
     color: dark-green
   
