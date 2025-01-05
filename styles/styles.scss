@@ -2,8 +2,13 @@
 
 #banner {
   display: block;
-  width: 70%;
   margin: 0 auto;
+} 
+
+@include media-breakpoint-up(lg) {
+  #banner {
+    width: 70%;
+  } 
 }
 
 
