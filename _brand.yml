@@ -28,7 +28,6 @@ typography:
     family: Lato
   headings:
     family: Yeseva One
-    style: italic
     color: dark-green
   
 meta:

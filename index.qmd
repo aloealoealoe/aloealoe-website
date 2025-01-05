@@ -24,21 +24,15 @@ format:
         </script>
 ---
 
-![](assets/banner.png)
+![](assets/banner.png){#banner}
 
-::: {.grid}
+::: {.grid .gap-0 .column-gap-3}
 
 :::::: {.p-3 .g-col-12 .g-col-lg-4}
 
 ::::::::: {#about-me}
 
-### Overview
-
-Hi, I'm Claire!
-
-I'm a Freelance Medical and Scientific Writer with over 3 years experience in Medical Communications and a passion for learning.
-
-Contact me for support with your medical, commercial and medical education deliverables.
+<span id="intro"></span>
 
 :::::::::
 
@@ -47,12 +41,20 @@ Contact me for support with your medical, commercial and medical education deliv
 
 :::::: {.p-3 .g-col-12 .g-col-lg-8}
 
-
 ### I can support you to...
 
 * Create marked-up reference packs
 * Data-check content
-* Develop scientific materials, including <span id="task"></span>
+* :::::::::{#tasks}
+  <span id="tasks-hint-line">Develop scientific materials, <span id="tasks-hint">including... <span id="tasks-hint-arrow">⤵</span></span></span>
+  - Advisory board reports and executive summaries
+  - Congress materials (abstracts, booth content, intelligence reports, posters, presentations...)
+  - Internal training materials
+  - Meeting-in-a-box deliverables
+  - Newsletters
+  - Slide decks for in-field and internal use
+  - Symposium and stand-alone meeting materials (presentations, agendas, invitations, briefing documents,  e-blasts...)
+  :::::::::
 * Interpret meaning from data
 * Link content in VeevaVault
 * Re-template materials
@@ -68,10 +70,11 @@ Contact me for support with your medical, commercial and medical education deliv
 
 ### Therapy areas of expertise...
 
-* Dermatology (psoriasis)
-* Hepatology (hepatitis B, PFIC)
-* Rare disease (pulmonary hypertension, PFIC)
-* Rheumatology (psoriatic arthritis)
+* Dermatology
+* Hepatology
+* Rare disease
+* Rheumatology
+
 
 ::::::
 

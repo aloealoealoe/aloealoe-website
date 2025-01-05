@@ -1,24 +1,44 @@
 /*-- scss:rules --*/
 
-// Special panel in "about-me" section
-#overview {
-  background-color: $brand-green0;
-  padding: 1rem;
-  border-radius: 1rem;
-  
-  h3 {
-    display: none;
-  }
+#banner {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
 }
 
 
-section {
+#about-me {
+  width: 100%;
+  background-color: $brand-green0;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+
+@import 'typed.css/typed.scss';
+
+#intro {
+  @include typed(
+    "...",
+    (type: 0.05, pause-typed: 3, delete: 0.01, pause-deleted: 1),
+    (
+      caret-width: 2px,
+      iterations: 1,
+      end-on: "Hi, I'm Claire!<[30]>" +
+        "\A\A I'm a Freelance Medical and Scientific Writer with over 3 years of experience in Medical Communications and a passion for learning.<[30]>" +
+        "\A\A Contact me for support with your medical, commercial and medical education deliverables."
+    )
+  )
+}
+
+
+section, #about-me {
   text-wrap: balance;
   text-wrap: pretty;
 }
 
 
-section, .about-image {
+section:not(.prompt), .about-image {
   
   border-radius: 1rem;
   padding: 0.5rem 1rem;
@@ -27,7 +47,7 @@ section, .about-image {
     margin-top: 0.5rem;
   }
   
-    
+  
   // Highlight visually when focused (hover on desktop, touch on mobile)
   opacity: 0.5; 
   background-color: none;
@@ -45,25 +65,57 @@ section, .about-image {
   p, li {
     &:hover, &:active {
       -webkit-text-stroke: 0.6px;
+      li {
+        -webkit-text-stroke: 0;
+        &:hover, &:active {
+           -webkit-text-stroke: 0.6px;
+        }
+      }
     }
   }
 }
 
 
-@import 'typed.css/typed.scss';
+.about-image {
+  opacity: 1 !important;
+}
 
-#task {
+
+.quarto-about-jolla {
+  margin-top: 0 !important;
+}
+
+
+#tasks {
+  ul {
+    color: $brand-green;
+    margin-bottom: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-out;
+  }
+  
+  &:hover {
+    ul {
+      max-height: 500px;
+      transition: max-height 1s ease-in;
+    }
+  }
+}
+
+
+
+#tasks-hint {
   color: $brand-green;
-  @include typed(
-    "advisory board reports and executive summaries",
-    "congress materials (abstracts, booth content, intelligence reports, posters, presentations...)",
-    "internal training materials",
-    "meeting-in-a-box deliverables",
-    "newsletters",
-    "slide decks for in-field and internal use",
-    "symposium and stand-alone meeting materials (presentations, agendas, invitations, briefing documents, e-blasts...)",
-    "... something else?",
-    (type: 0.05, pause-typed: 4, delete: 0.01, pause-deleted: 1),
-    (caret-width: 2px)
-  )
+}
+
+#tasks-hint-line {
+  &:hover, &:has(+ ul:hover) {
+    #tasks-hint {
+      color: var(--bs-body-color) !important;
+    }
+    #tasks-hint-arrow {
+      display: none;
+    }
+  }
 }
