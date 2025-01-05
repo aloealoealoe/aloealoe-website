@@ -24,10 +24,11 @@
 
 #intro {
   @include typed(
-    "...",
-    (type: 0.05, pause-typed: 3, delete: 0.01, pause-deleted: 1),
+    "Aloe aloe! I'm...",
+    (type: 0.05, pause-typed: 3, delete: 0.02, pause-deleted: 1),
     (
       caret-width: 2px,
+      delay: 3,
       iterations: 1,
       end-on: "Hi, I'm Claire!<[30]>" +
         "\A\A I'm a Freelance Medical and Scientific Writer with over 3 years of experience in Medical Communications and a passion for learning.<[30]>" +
