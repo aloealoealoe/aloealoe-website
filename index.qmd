@@ -46,7 +46,7 @@ format:
 * Create marked-up reference packs
 * Data-check content
 * :::::::::{#tasks}
-  <span id="tasks-hint-line">Develop scientific materials, <span id="tasks-hint">including... <span id="tasks-hint-arrow">⤵</span></span></span>
+  Develop scientific materials, <span id="tasks-hint">including... <span id="tasks-hint-arrow">⤵</span></span>
   - Advisory board reports and executive summaries
   - Congress materials (abstracts, booth content, intelligence reports, posters, presentations...)
   - Internal training materials

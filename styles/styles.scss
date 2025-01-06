@@ -115,13 +115,11 @@ section:not(.prompt), .about-image {
   color: $brand-green;
 }
 
-#tasks-hint-line {
-  &:hover, &:has(+ ul:hover) {
-    #tasks-hint {
-      color: var(--bs-body-color) !important;
-    }
-    #tasks-hint-arrow {
-      display: none;
-    }
+#tasks:hover {
+  #tasks-hint {
+    color: var(--bs-body-color) !important;
+  }
+  #tasks-hint-arrow {
+    display: none;
   }
 }
