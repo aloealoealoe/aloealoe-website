@@ -55,14 +55,17 @@ section:not(.prompt), .about-image {
   
   
   // Highlight visually when focused (hover on desktop, touch on mobile)
-  opacity: 0.5; 
   background-color: none;
-  transition: opacity 0.2s linear, background-color 0.5s linear;
+  transition: background-color 0.5s linear;
+  
+  @media (hover: hover) {
+    opacity: 0.5; 
+    transition: opacity 0.2s linear, background-color 0.5s linear;
+  }
   
   &:hover, &:active {
     opacity: 1;
     background-color: $brand-green0;
-    transition: opacity 0.2s linear, background-color 0.5s linear;
   }
   
   
