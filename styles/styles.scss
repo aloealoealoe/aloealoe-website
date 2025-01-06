@@ -58,8 +58,8 @@ section:not(.prompt), .about-image {
   background-color: none;
   transition: background-color 0.5s linear;
   
-  @media (hover: hover) {
-    opacity: 0.5; 
+  @media (pointer: fine) {
+    opacity: 0.5;
     transition: opacity 0.2s linear, background-color 0.5s linear;
   }
   
