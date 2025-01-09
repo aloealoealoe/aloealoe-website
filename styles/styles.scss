@@ -28,11 +28,11 @@
     (type: 0.05, pause-typed: 3, delete: 0.02, pause-deleted: 1),
     (
       caret-width: 2px,
-      delay: 3,
+      delay: 2.5,
       iterations: 1,
       end-on: "Hi, I'm Claire!<[30]>" +
-        "\A\A I'm a Freelance Medical and Scientific Writer with over 3 years of experience in Medical Communications and a passion for learning.<[30]>" +
-        "\A\A Contact me for support with your medical, commercial and medical education deliverables."
+        "\A\A I'm a UK-based Freelance Medical and Scientific Writer with over 3 years of experience in Medical Communications and a passion for learning.<[30]>" +
+        "\A\A Contact me for support with your medical, <[5]>commercial and medical education deliverables."
     )
   )
 }
