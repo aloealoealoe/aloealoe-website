@@ -3,8 +3,14 @@ project:
 
 website:
   title: "AloeAloe"
-  description: "AloeAloe Medical and Scientific Writing"
-  page-footer: Copyright © 2025, Claire Pike
+  description: "AloeAloe Medical and Scientific Writing Ltd"
+  page-footer: |
+    Copyright © AloeAloe Medical and Scientific Writing Ltd
+    
+    AloeAloe Medical and Scientific Writing Ltd is a company registered in 
+    England and Wales (company number: 16173550)
+    
+    Delta 606, Welton Road, Swindon, United Kingdom, SN5 7XF 
   navbar: false
   favicon: "assets/icon.png"
   twitter-card: true

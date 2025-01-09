@@ -126,3 +126,15 @@ section:not(.prompt), .about-image {
     display: none;
   }
 }
+
+
+.nav-footer-center {
+  min-width: 100%;
+}
+
+footer {
+  padding: 0 1rem;
+  p {
+    margin: 0;
+  }
+}
