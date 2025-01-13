@@ -1,5 +1,5 @@
 // Base64-encoded email address (to avoid plaintext-scraping email harvesters)
-let encoded = 'dGVzdEB0ZXN0LmNvbQ==';
+let encoded = 'Y2xhaXJlQGFsb2VhbG9lc2NpLmNvbQo=';
 let decoded = atob(encoded);
 
 // Insert panel below "Email" link in about-me section
