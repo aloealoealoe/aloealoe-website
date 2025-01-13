@@ -146,6 +146,17 @@ section {
 
 
 #tasks {
+
+}
+
+
+
+#tasks-hint {
+  color: $brand-green;
+}
+
+#tasks {
+  
   ul {
     color: $brand-green;
     margin-bottom: 0;
@@ -156,22 +167,13 @@ section {
   
   &:hover, &:active {
     ul {
-      max-height: 300px;
+      max-height: 500px;
     }
-  }
-}
-
-
-
-#tasks-hint {
-  color: $brand-green;
-}
-
-#tasks {
-  &:hover, &:active {
+    
     #tasks-hint {
       color: var(--bs-body-color) !important;
     }
+    
     #tasks-hint-arrow {
       display: none;
     }
