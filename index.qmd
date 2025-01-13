@@ -47,7 +47,7 @@ format:
   - Symposium and stand-alone meeting materials (presentations, agendas, invitations, briefing documents,  e-blasts...)
   :::::::::
 * Interpret meaning from data
-* Link content in VeevaVault
+* Link content in Veeva Vault
 * Re-template materials
 * Review word copy
 
@@ -56,7 +56,7 @@ format:
   
 * Microsoft Office
 * PubMed
-* VeevaVault
+* Veeva Vault
 
 
 ### Therapy areas of expertise...
