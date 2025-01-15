@@ -44,7 +44,7 @@ format:
 ### I can support you to...
 
 * Create marked-up reference packs
-* Data-check content
+* Data check content
 * :::::::::{#tasks}
   Develop scientific materials, <span id="tasks-hint">including... <span id="tasks-hint-arrow">⤵</span></span>
   - Advisory board reports and executive summaries
