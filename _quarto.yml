@@ -8,7 +8,7 @@ website:
     Copyright © AloeAloe Medical and Scientific Writing Ltd
     
     AloeAloe Medical and Scientific Writing Ltd is a company registered in 
-    England and Wales (company number: 16173550)
+    England and Wales (company&nbsp;number:&nbsp;16173550)
     
     Delta 606, Welton Road, Swindon, United Kingdom, SN5 7XF 
   navbar: false
@@ -17,6 +17,7 @@ website:
 
 format:
   html:
+    page-layout: full
     theme:
       - brand
       - cosmo

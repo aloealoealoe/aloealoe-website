@@ -6,22 +6,15 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: "###email###"
+      href: "#email"
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com/in/claire-pike
 format:
   html:
-    page-layout: full
     include-after-body:
       text: |
-        <script>
-          function decryptEmail(encoded) {
-            var address = atob(encoded);
-            document.querySelector(".about-link[href*='###email###']").href = "mailto:" + address;
-          }
-          decryptEmail('dGVzdEB0ZXN0LmNvbQ==');
-        </script>
+        <script type="application/javascript" src="scripts/main.js"</script>
 ---
 
 ![](assets/banner.png){#banner}
@@ -31,9 +24,7 @@ format:
 :::::: {.p-3 .g-col-12 .g-col-lg-4}
 
 ::::::::: {#about-me}
-
 <span id="intro"></span>
-
 :::::::::
 
 ::::::
@@ -56,7 +47,7 @@ format:
   - Symposium and stand-alone meeting materials (presentations, agendas, invitations, briefing documents,  e-blasts...)
   :::::::::
 * Interpret meaning from data
-* Link content in VeevaVault
+* Link content in Veeva Vault
 * Re-template materials
 * Review word copy
 
@@ -65,7 +56,7 @@ format:
   
 * Microsoft Office
 * PubMed
-* VeevaVault
+* Veeva Vault
 
 
 ### Therapy areas of expertise...
