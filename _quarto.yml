@@ -13,7 +13,9 @@ website:
     Delta 606, Welton Road, Swindon, United Kingdom, SN5 7XF 
   navbar: false
   favicon: "assets/icon.png"
-  twitter-card: true
+  twitter-card:
+    title: "AloeAloe Medical and Scientific Writing Ltd"
+    image: "assets/logo.png"
 
 format:
   html:
