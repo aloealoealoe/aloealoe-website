@@ -24,6 +24,14 @@ format:
 :::::: {.p-3 .g-col-12 .g-col-lg-4}
 
 ::::::::: {#about-me}
+:::::::::::: {#about-me-static}
+Hi, I'm Claire!
+
+I'm a UK-based Freelance Medical and Scientific Writer with over 3 years of experience in Medical Communications and a passion for learning.
+
+Contact me for support with your medical, commercial and medical education deliverables.
+::::::::::::
+
 <span id="intro"></span>
 :::::::::
 

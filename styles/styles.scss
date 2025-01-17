@@ -36,6 +36,7 @@ body {
   background-color: $brand-green0;
   padding: 1rem;
   border-radius: 1rem;
+  position: relative;
 }
 
 
@@ -55,6 +56,39 @@ body {
     border: 2px solid $brand-dark-green !important;
     margin: -1px;
   }
+}
+
+
+#about-me-static {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  overflow: hidden;
+  color: var(--bs-body-color); //fallback
+  color: rgba(0, 0, 0, 0);// transparent
+  padding-top: inherit;
+  padding-right: inherit;
+  
+  p {
+    margin-bottom: 1lh; // equivalent to \A in typed.css
+  }
+}
+
+
+@import 'typed.css/typed.scss';
+
+#intro {
+  @include typed(
+    "<[40]>Aloe aloe!<[10]> <[10]>I'm<[10]>.<[3]>.<[3]>.",
+    (type: 0.05, pause-typed: 2.5, delete: 0.02, pause-deleted: 1),
+    (
+      caret-width: 2px,
+      iterations: 1,
+      end-on: "Hi, <[5]>I'm Claire!" +
+        "<[20]>\A<[5]>\A<[20]>I'm a UK-based Freelance Medical and Scientific Writer<[5]> <[5]>with over 3 years of experience in Medical Communications<[5]> <[5]>and a passion for learning." +
+        "<[5]>\A<[5]>\A<[20]>Contact me for support with your medical<[3]>,<[3]> <[5]>commercial<[5]> <[5]>and medical education deliverables<[10]>."
+    )
+  )
 }
 
 
@@ -96,24 +130,6 @@ body {
       text-decoration: none;
     }
   }
-}
-
-
-@import 'typed.css/typed.scss';
-
-#intro {
-  @include typed(
-    "<[40]>Aloe aloe!<[10]> <[10]>I'm<[10]>.<[3]>.<[3]>.",
-    (type: 0.05, pause-typed: 2.5, delete: 0.02, pause-deleted: 1),
-    (
-      caret-width: 2px,
-      iterations: 1,
-      end-on: "Hi, <[5]>I'm Claire!" +
-        "<[20]>\A<[5]>\A<[20]>I'm a UK-based Freelance Medical and Scientific Writer<[5]> <[5]>with over 3 years of experience in Medical Communications<[5]> <[5]>and a passion for learning." +
-        "<[5]>\A<[5]>\A<[20]>Contact me for support with your medical<[3]>,<[3]> <[5]>commercial<[5]> <[5]>and medical education deliverables<[10]>." +
-        ""//"<[200]>\A<[10]>\A<[20]>"
-    )
-  )
 }
 
 
