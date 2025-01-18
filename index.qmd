@@ -17,7 +17,9 @@ format:
         <script type="application/javascript" src="scripts/main.js"</script>
 ---
 
-![](assets/banner.png){#banner}
+::: {#banner}
+{{< include assets/banner.svg >}}
+:::
 
 ::: {.grid .gap-0 .column-gap-3}
 

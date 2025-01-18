@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100">
+  <title>AloeAloe Medical and Scientific Writing</title>
+  <symbol id="leaf">
+    <path d="
+    M 0 0
+    A 130 200 0 0 1 100 100
+    A 200 130 0 0 1 0 0
+    " />
+  </symbol>
+  <symbol id="leaves">
+    <g><use href="#leaf" transform="translate(36,92) rotate(207) scale(0.5,0.5)"></use></g>
+    <g><use href="#leaf" transform="translate(44,89) rotate(250) scale(0.68,0.68)"></use></g>
+    <g><use href="#leaf" transform="translate(48,97) rotate(290) scale(0.33,0.33)"></use></g>
+  </symbol>
+  <style>
+    #title {
+      font-size: 65px;
+      font-family: Yeseva One;
+      letter-spacing: 3px;
+    }
+    #subtitle {
+      font-size: 20px;
+      font-family: Lato Light;
+      font-weight: bold;
+      letter-spacing: 1.5px;
+    }
+    #subtitle tspan {
+      letter-spacing: 0;
+    }
+  </style>
+  <use href="#leaves" transform="scale(0.9,0.9)" x="340" y="5" />
+  <text id="title" x="5" y="60">
+    <tspan id="aloe1">Aloe</tspan><tspan id="aloe2">Aloe</tspan>
+  </text>
+  <text id="subtitle" x="10" y="85">Medical and Scienti<tspan>fi</tspan>c Writing</text>
+</svg>
