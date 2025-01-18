@@ -24,9 +24,6 @@ typography:
       source: google
     - family: Lato
       source: google
-      weight:
-        - light
-        - regular
   base:
     family: Lato
   headings:

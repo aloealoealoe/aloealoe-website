@@ -20,9 +20,9 @@
     }
     #subtitle {
       font-size: 20px;
-      font-family: Lato Light;
-      font-weight: bold;
-      letter-spacing: 1.5px;
+      font-family: Lato;
+      letter-spacing: 1.2px;
+      word-spacing: 2.4px;
     }
     #subtitle tspan {
       letter-spacing: 0;
