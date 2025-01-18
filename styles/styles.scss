@@ -4,6 +4,13 @@ body {
   min-width: 400px;
   text-wrap: balance;
   text-wrap: pretty;
+  
+  @include media-breakpoint-up(lg) {
+    @media screen {
+      margin-left: calc(100vw - 100%);
+      margin-right: 0;
+    }
+  }
 }
 
 
