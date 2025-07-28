@@ -29,7 +29,7 @@ format:
 :::::::::::: {#about-me-static}
 Hi, I'm Claire!
 
-I'm a UK-based Freelance Medical and Scientific Writer with over 3 years of experience in Medical Communications and a passion for learning.
+I'm a UK-based Freelance Medical and Scientific Writer with over 4 years of experience in Medical Communications and a passion for learning.
 
 Contact me for support with your medical, commercial and medical education deliverables.
 ::::::::::::
@@ -72,9 +72,11 @@ Contact me for support with your medical, commercial and medical education deliv
 ### Therapy areas of expertise...
 
 * Dermatology
+* Gastroenterology
 * Hepatology
 * Rare disease
 * Rheumatology
+* Vaccines
 
 
 ::::::
