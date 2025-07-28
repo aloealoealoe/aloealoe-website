@@ -17,8 +17,9 @@ format:
         <script type="application/javascript" src="scripts/main.js"</script>
 ---
 
-::: {#banner}
+::: {#banner .p-3}
 {{< include assets/banner.svg >}}
+{{< include assets/logo.svg >}}
 :::
 
 ::: {.grid .gap-0 .column-gap-3}
