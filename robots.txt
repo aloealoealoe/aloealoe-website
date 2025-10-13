@@ -1,1 +1,1 @@
-Sitemap: https://aloealoesci.com/sitemap.xml
+Sitemap: aloealoesci.com/sitemap.xml
