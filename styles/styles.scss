@@ -14,6 +14,16 @@ body {
 }
 
 
+.nav-link {
+  font-family: "Yeseva One";
+  color: $brand-dark-green !important;
+  
+  &:hover {
+    color: $brand-green !important;
+  }
+}
+
+
 // For logo leaves
 @keyframes wiggle {
   0% { rotate: 0deg; }
@@ -147,7 +157,7 @@ body {
       caret-width: 2px,
       iterations: 1,
       end-on: "Hi, <[5]>I'm Claire!" +
-        "<[20]>\A<[5]>\A<[20]>I'm a UK-based Freelance Medical and Scientific Writer<[5]> <[5]>with over 4 years of experience in Medical Communications<[5]> <[5]>and a passion for learning." +
+        "<[20]>\A<[5]>\A<[20]>I'm a UK-based Freelance Senior Medical and Scientific Writer<[5]> <[5]>with over 4 years of experience in Medical Communications<[5]> <[5]>and a passion for learning." +
         "<[5]>\A<[5]>\A<[20]>Contact me for support with your medical<[3]>,<[3]> <[5]>commercial<[5]> <[5]>and medical education deliverables<[10]>."
     )
   )
@@ -195,7 +205,7 @@ body {
 }
 
 
-section {
+#home section {
   
   border-radius: 1rem;
   padding: 0.5rem 1rem;
@@ -219,14 +229,6 @@ section {
     }
   }
 }
-
-
-
-
-#tasks {
-
-}
-
 
 
 #tasks-hint {
@@ -268,6 +270,21 @@ footer {
   p {
     margin: 0;
   }
+}
+
+
+.quarto-post h3 a {
+  color: $brand-dark-green;
+}
+
+.quarto-title-banner h1 {
+  color: $brand-dark-green;
+}
+
+
+p img {
+  display: block;
+  margin: 1rlh auto;
 }
 
 

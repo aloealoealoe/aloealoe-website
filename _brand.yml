@@ -30,6 +30,8 @@ typography:
   headings:
     family: Yeseva One
     color: dark-green
+  link:
+    color: dark-green
   
 meta:
   name: AloeAloe Medical and Scientific Writing Ltd

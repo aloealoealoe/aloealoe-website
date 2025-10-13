@@ -4,6 +4,7 @@ project:
 website:
   title: "AloeAloe"
   description: "AloeAloe Medical and Scientific Writing Ltd"
+  site-url: "aloealoesci.com"
   page-footer: |
     Copyright © AloeAloe Medical and Scientific Writing Ltd
     
@@ -11,7 +12,15 @@ website:
     England and Wales (company&nbsp;number:&nbsp;16173550)
     
     Delta 606, Welton Road, Swindon, United Kingdom, SN5 7XF 
-  navbar: false
+  navbar:
+    background: $brand-green0
+    title: false
+    search: false
+    left: 
+      - text: Home
+        href: index.qmd
+      - text: Blog
+        href: posts.qmd
   favicon: "assets/icon.png"
   twitter-card:
     title: "AloeAloe Medical and Scientific Writing Ltd"

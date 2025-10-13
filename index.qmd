@@ -22,7 +22,7 @@ format:
 {{< include assets/logo.svg >}}
 :::
 
-::: {.grid .gap-0 .column-gap-3}
+::: {#home .grid .gap-0 .column-gap-3}
 
 :::::: {.p-3 .g-col-12 .g-col-lg-4}
 
@@ -30,7 +30,7 @@ format:
 :::::::::::: {#about-me-static}
 Hi, I'm Claire!
 
-I'm a UK-based Freelance Medical and Scientific Writer with over 4 years of experience in Medical Communications and a passion for learning.
+I'm a UK-based Freelance Senior Medical and Scientific Writer with over 4 years of experience in Medical Communications and a passion for learning.
 
 Contact me for support with your medical, commercial and medical education deliverables.
 ::::::::::::
@@ -65,6 +65,7 @@ Contact me for support with your medical, commercial and medical education deliv
 
 ### Tools I am familiar with...
   
+* Endnote
 * Microsoft Office
 * PubMed
 * Veeva Vault
