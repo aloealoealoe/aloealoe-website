@@ -4,6 +4,9 @@ body {
   min-width: 400px;
   text-wrap: balance;
   text-wrap: pretty;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
   
   @include media-breakpoint-up(lg) {
     @media screen {
