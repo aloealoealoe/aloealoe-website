@@ -7,11 +7,6 @@
     A 200 130 0 0 1 0 0
     " />
   </symbol>
-  <symbol id="leaves">
-    <g><use href="#leaf" transform="translate(36,92) rotate(207) scale(0.5,0.5)"></use></g>
-    <g><use href="#leaf" transform="translate(44,89) rotate(250) scale(0.68,0.68)"></use></g>
-    <g><use href="#leaf" transform="translate(48,97) rotate(290) scale(0.33,0.33)"></use></g>
-  </symbol>
   <style>
     .aloealoe-banner #title {
       font-size: 65px;
@@ -29,7 +24,11 @@
       letter-spacing: 0;
     }
   </style>
-  <use href="#leaves" transform="scale(0.9,0.9)" x="340" y="5" />
+  <g transform="translate(306,5) scale(0.9,0.9)">
+     <g><use href="#leaf" transform="translate(36,92) rotate(207) scale(0.5,0.5)"></use></g>
+     <g><use href="#leaf" transform="translate(44,89) rotate(250) scale(0.68,0.68)"></use></g>
+     <g><use href="#leaf" transform="translate(48,97) rotate(290) scale(0.33,0.33)"></use></g>
+  </g>
   <text id="title" x="5" y="60">
     <tspan id="aloe1">Aloe</tspan><tspan id="aloe2">Aloe</tspan>
   </text>

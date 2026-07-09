@@ -65,7 +65,7 @@ body {
   }
   
   &:hover, &:active {
-    svg g {
+    svg g g {
       transform-box: fill-box;
       animation: wiggle 0.4s ease 1;
   
