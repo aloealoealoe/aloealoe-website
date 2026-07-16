@@ -21,6 +21,9 @@ website:
         href: index.qmd
       - text: Blog
         href: posts.qmd
+    right:
+      - icon: rss
+        href: posts.xml
   favicon: "assets/icon.png"
   twitter-card:
     title: "AloeAloe Medical and Scientific Writing Ltd"
