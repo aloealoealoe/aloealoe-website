@@ -41,3 +41,4 @@ format:
       text: |
         <script data-goatcounter="https://aloealoe.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+    date-format: DD MMMM YYYY
