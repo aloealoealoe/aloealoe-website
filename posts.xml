@@ -10,7 +10,91 @@
 <atom:link href="aloealoesci.com/posts.xml" rel="self" type="application/rss+xml"/>
 <description>AloeAloe Medical and Scientific Writing Ltd</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Thu, 09 Jul 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 23 Jul 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Staying up to date in MedComms as a freelancer</title>
+  <link>aloealoesci.com/posts/2026/07/RSS_in_medical_writing/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I want to start off this blog post with a disclaimer that I’m about to get really nerdy.</p>
+<p>As in all industries, in MedComms it’s very useful to be “up to date”. This becomes even more important as a freelancer, as we’re typically not as surrounded by people to learn from, bounce ideas off or share knowledge with. We’re also not blessed with billable admin time.</p>
+<p>Staying afloat in a vast pool of knowledge can soon become <em>rather</em> overwhelming and time-consuming. There are so many different areas where it would be useful to be kept up to date, from therapy area knowledge to clinical trial updates, to regulatory approvals, to useful tools to improve medical writing… the list is endless. These updates are spread across several corners of the internet, and we don’t always have the time or inclination to sift through them.</p>
+<p>Enter the humble RSS feed. <strong>[Angels harmonise in the distance]</strong></p>
+<p><img src="aloealoesci.com/posts/2026/07/RSS_in_medical_writing/angels-deliver.png" title="Angels deliver RSS whilst harmonising harmoniously" class="img-fluid" alt="Two angels, lovingly hand-drawn in Microsoft Paint, delivering a personalised RSS feed"></p>
+<section id="what-is-an-rss-feed" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-an-rss-feed">What is an RSS feed?</h2>
+<p>Imagine a feed where everything you are interested in is collated in one place.<sup>1</sup> That can be created with Really Simple Syndication (RSS).<sup>1</sup></p>
+<p>Users can create RSS feeds from publicly accessible webpages.<sup>1</sup> RSS feed URLs for websites can be tricky to find, however, Justin Pot has published a handy blogpost on Zapier summarising how this can be achieved.<sup>2</sup></p>
+<p>There are many applications that allow us to read RSS feeds, though many of these require monthly subscriptions. There are free, open-source options available such as WinNewsWire (for Windows) and NetNewsWire (for macOS).</p>
+<p>Sitting down to craft an RSS feed does take a bit of upfront time and thought. However, once the initial setup is complete, your RSS feed reader acts like your favourite news app except it delivers information to you from several sources in your ‘Dashboard’ or ‘Today’ feed (this will differ depending on the RSS feed reader you’ve chosen – some look flashier than others).</p>
+<p>Each RSS feed you’ve added to your feed reader can be viewed independently, so you can see the latest results up to a set number of items. You can also add or remove RSS feeds easily, so this doesn’t need to be done in one sitting.</p>
+</section>
+<section id="how-can-i-use-rss-effectively-as-a-medical-writer" class="level2">
+<h2 class="anchored" data-anchor-id="how-can-i-use-rss-effectively-as-a-medical-writer">How can I use RSS effectively as a Medical Writer?</h2>
+<p>Whilst I was writing this post, I created my own RSS feed in WinNewsWire based on the websites I typically source my updates from, so you may find this a handy guide to create your own!</p>
+<section id="pubmed-searches" class="level4">
+<h4 class="anchored" data-anchor-id="pubmed-searches">PubMed searches</h4>
+<p>Newly published articles are added to PubMed every day. While you may be familiar with creating PubMed alerts for your favourite searches,<sup>3</sup> you can also create RSS feeds to keep up to date with your favourite topics in one place:<sup>4</sup></p>
+<ol type="1">
+<li>In PubMed, search for your topic of interest</li>
+<li>Make sure your search is refined enough to find everything you’re interested in<sup>5</sup> – consider the publication date range and any other filters you would like to include</li>
+<li>Beneath the search bar, click on the ‘Create RSS’ button</li>
+<li>From there, create your RSS feed URL for copying into your feed reader</li>
+</ol>
+<p>You can add as many searches as you like to your RSS feed and even separate these into different folders if you fancy.</p>
+<p>PubMed searches are probably the best way to stay on top of new insights into therapy areas of interest. Imagine you have a client who is interested in personalised medicine approaches in their specialist therapy area. Before a regular catch-up with them, quickly checking an RSS based on the PubMed search string <code>"personali*ed medicine" AND "[insert therapy area]"</code> could be a great way to proactively pass on any insights that have popped up in the literature recently.</p>
+</section>
+<section id="congress-websites-and-journals" class="level4">
+<h4 class="anchored" data-anchor-id="congress-websites-and-journals">Congress websites and journals</h4>
+<p>Another way to keep on top of journal articles and clinical trial data by therapy area is to follow RSS feeds from congress and journal websites.</p>
+<p>For a particular therapy area, consider the main congresses and journals where data and articles are published and investigate whether they have an RSS feed that you can subscribe to in your feed reader.</p>
+<p>For example, if you’re interested in updates in oncology, you may wish to follow the European Society for Medical Oncology (ESMO) RSS feed.<sup>6</sup> If you often read or use references from <em>BMJ Oncology</em>, you may wish to follow some of their RSS feeds.<sup>7</sup></p>
+</section>
+<section id="pharma-news-and-press-releases" class="level4">
+<h4 class="anchored" data-anchor-id="pharma-news-and-press-releases">Pharma news and press releases</h4>
+<p>Being informed of the latest news in pharma can be incredibly useful. Pharmaceutical companies often host their own news and press-release pages detailing their latest updates on clinical trials, pipeline and regulatory approvals. Adding the RSS feed URLs for these websites to your feed can be handy to understand what these companies are focusing on at the moment.</p>
+<p>Alternatively, pharma news websites such as Fierce Pharma,<sup>8</sup> Pharmafile,<sup>9</sup> and PharmaTimes<sup>10</sup> publish press releases and news updates from multiple pharmaceutical companies in their RSS feeds.</p>
+</section>
+<section id="medical-writing-tips-and-tricks" class="level4">
+<h4 class="anchored" data-anchor-id="medical-writing-tips-and-tricks">Medical writing tips and tricks</h4>
+<p>In lieu of learning from wonderful colleagues, staying up to date with medical writing blogs via RSS can help supplement learning. For example, in my feed reader, I have included the American Medical Writers Association (AMWA) blog as I find their posts very informative.<sup>11</sup></p>
+<p>Whilst I was perusing the interweb to create my own RSS feed, I didn’t come across a huge number of resources on general medical writing tips and tricks. One hope I have for the blog that you’re currently reading is for it to be a useful source of information for medical writers (whether freelance or not). If you end up dabbling with RSS, feel free to add <a href="../../../../posts.xml">my RSS feed URL</a> to your feed reader.</p>
+</section>
+</section>
+<section id="once-i-set-this-up-will-i-actually-use-it" class="level2">
+<h2 class="anchored" data-anchor-id="once-i-set-this-up-will-i-actually-use-it">Once I set this up, will I actually use it?</h2>
+<p>Not to be dramatic, but I’ve employed my RSS read feeder as my personal research assistant for less than a month and I already feel like it is <em>life-changing</em>.</p>
+<p>I’m sure I’m not the only one who dabbles with a bit of admin first thing in the morning to get the cogs whirring. Logging on, checking my RSS feed reader and being greeted with genuinely relevant information from veritable sources is supremely joyous. And in chronological order? With no algorithms in sight? I could weep.</p>
+<p>Let me know if you try this out for yourself – I would love to hear your thoughts.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ol type="1">
+<li>RSS.app. Getting started with RSS feeds. Available at: <a href="https://help.rss.app/en/articles/8742459-getting-started-with-rss-feeds" class="uri">https://help.rss.app/en/articles/8742459-getting-started-with-rss-feeds</a> (accessed July 2026).</li>
+<li>Zapier. How to find the RSS feed URL for almost any site. Available at: <a href="https://zapier.com/blog/how-to-find-rss-feed-url/" class="uri">https://zapier.com/blog/how-to-find-rss-feed-url/</a> (accessed July 2026).</li>
+<li>NIH. How can I get an alert when a new article of my interest has been added to PubMed? Available at: <a href="https://support.nlm.nih.gov/kbArticle/?pn=KA-03318" class="uri">https://support.nlm.nih.gov/kbArticle/?pn=KA-03318</a> (accessed July 2026).</li>
+<li>NIH. Create RSS Feeds in PubMed. Available at: <a href="https://www.nlm.nih.gov/pubs/techbull/ja20/ja20_pubmed_updated.html" class="uri">https://www.nlm.nih.gov/pubs/techbull/ja20/ja20_pubmed_updated.html</a> (accessed July 2026).</li>
+<li>Research Checker. How to Write a PubMed Search String That Actually Finds Everything. Available at: <a href="https://research-checker.com/blog/how-to-write-a-pubmed-search-string" class="uri">https://research-checker.com/blog/how-to-write-a-pubmed-search-string</a> (accessed July 2026).</li>
+<li>Feeder. ESMO news. Available at: <a href="https://feeder.co/discover/5a82e0a65b/esmo-org" class="uri">https://feeder.co/discover/5a82e0a65b/esmo-org</a> (accessed July 2026).</li>
+<li>BMJ Oncology. RSS feeds. Available at: <a href="https://bmjoncology.bmj.com/pages/rss-feeds" class="uri">https://bmjoncology.bmj.com/pages/rss-feeds</a> (accessed July 2026).</li>
+<li>Fierce Pharma. RSS Feeds. Available at: <a href="https://www.fiercepharma.com/fiercepharmacom/rss-feeds" class="uri">https://www.fiercepharma.com/fiercepharmacom/rss-feeds</a> (accessed July 2026).</li>
+<li>Pharmafile. RSS. Available at: <a href="https://pharmafile.com/rss-2/" class="uri">https://pharmafile.com/rss-2/</a> (accessed July 2026).</li>
+<li>PharmaTimes. RSS – feed subscriptions. Available at: <a href="https://comms.pharmatimes.com/rss-feed-subscriptions/" class="uri">https://comms.pharmatimes.com/rss-feed-subscriptions/</a> (accessed July 2026).</li>
+<li>AMWA. AMWA blog. Available at: <a href="https://blog.amwa.org/" class="uri">https://blog.amwa.org/</a> (accessed July 2026).</li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <guid>aloealoesci.com/posts/2026/07/RSS_in_medical_writing/</guid>
+  <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+  <media:content url="aloealoesci.com/posts/2026/07/RSS_in_medical_writing/angels-deliver.png" medium="image" type="image/png" height="72" width="144"/>
+</item>
 <item>
   <title>Are you a critical thinker?</title>
   <link>aloealoesci.com/posts/2026/07/critical_thinking/</link>
